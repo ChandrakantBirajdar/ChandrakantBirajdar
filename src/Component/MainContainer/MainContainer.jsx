@@ -12,7 +12,7 @@ function MainContainer()
 
     function random(min, max) {
         setImgNumber(Math.floor(min + Math.random() * (max - min)));
-         
+
         if(currentBtn=== imgNumber)
         {
             setScore(currentBtn+2)
@@ -33,7 +33,7 @@ function MainContainer()
             <NavigationContainer>
                 <LeftContainer>
                         <h1>{score}</h1>
-                        <h3>Total Score</h3>
+                        <h3>Total </h3>
                 </LeftContainer>
                 
                                 <RightContainer>
