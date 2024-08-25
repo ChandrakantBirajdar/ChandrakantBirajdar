@@ -6,8 +6,11 @@ import MainContainer from './Component/MainContainer/MainContainer';
 function App() {
   return (
     <div className="App">
-       <Homepage />
+       {/* <Homepage /> */}
+       
        <MainContainer />   
+
+       
     </div>
   );
 }
